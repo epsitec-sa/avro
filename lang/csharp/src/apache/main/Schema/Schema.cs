@@ -140,8 +140,21 @@ namespace Avro
         /// <returns>new Schema object</returns>
         public static Schema Parse(string json)
         {
-            if (string.IsNullOrEmpty(json)) throw new ArgumentNullException("json", "json cannot be null.");
-            return Parse(json.Trim(), new SchemaNames(), null); // standalone schema, so no enclosing namespace
+			return Schema.Parse(json, new SchemaNames());
+        }
+
+        /// <summary>
+        /// Parses a given JSON string to create a new schema object
+        /// </summary>
+        /// <param name="json">JSON string</param>
+        /// <param name="names">list of named schemas already read</param>
+        /// <returns>new Schema object</returns>
+        public static Schema Parse(string json, SchemaNames names)
+        {
+			json = json?.Trim();
+			if (string.IsNullOrEmpty(json)) throw new ArgumentNullException(nameof(json), $"{nameof(json)} cannot be null");
+            if (names == null) throw new ArgumentNullException(nameof(names), $"{nameof(names)} cannot be null");
+            return Parse(json, names, null); // standalone schema, so no enclosing namespace
         }
 
         /// <summary>

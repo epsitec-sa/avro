@@ -9,9 +9,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Epsitec SA</Company>
     <Authors>Apache Avro team &amp; Epsitec SA</Authors>
-    <Description>This is a .NET Standard fork of the original Apache Avro library.</Description>
+    <Description>Fork of Apache.Avro maintained by Epsitec SA.</Description>
     <PackageTags>avro</PackageTags>
-    <PackageVersion>0.9.0.4</PackageVersion>
+    <PackageVersion>0.9.0.5</PackageVersion>
     <PackageProjectUrl />
     <RepositoryType>Github</RepositoryType>
     <RepositoryUrl>https://github.com/epsitec-sa/avro</RepositoryUrl>
