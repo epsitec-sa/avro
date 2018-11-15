@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Epsitec SA")]
-[assembly: AssemblyProduct("Avro")]
+[assembly: AssemblyProduct("Apache Avro")]
 [assembly: AssemblyCopyright("Copyright © Apache 2013-2018 and © Epsitec SA 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

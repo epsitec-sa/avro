@@ -5,14 +5,18 @@
     <RootNamespace>Avro</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Apache Avro team, Pierre Arnaud</Authors>
+    <Company>Epsitec SA</Company>
+    <Authors>Apache Avro team &amp; Epsitec SA</Authors>
+    <Description>This is a .NET Standard fork of the original Apache Avro library.</Description>
     <PackageTags>avro</PackageTags>
-    <PackageVersion>0.9.0</PackageVersion>
+    <PackageVersion>0.9.0.3</PackageVersion>
     <PackageProjectUrl />
-    <RepositoryType>git</RepositoryType>
+    <RepositoryType>Github</RepositoryType>
     <RepositoryUrl>https://github.com/epsitec-sa/avro</RepositoryUrl>
-    <IconUrl>https://github.com/epsitec-sa/avro/blob/master/avro-icon-64x64.png</IconUrl>
+    <PackageIconUrl>https://github.com/epsitec-sa/avro/blob/master/avro-icon-64x64.png</PackageIconUrl>
     <LangVersion>latest</LangVersion>
+    <PackageId>Epsitec.Apache.Avro</PackageId>
+    <PackageTags>avro</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
