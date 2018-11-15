@@ -4,6 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Avro</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Apache Avro team, Pierre Arnaud</Authors>
+    <PackageTags>avro</PackageTags>
+    <PackageVersion>0.9.0</PackageVersion>
+    <PackageProjectUrl />
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/epsitec-sa/avro</RepositoryUrl>
+    <IconUrl>https://github.com/epsitec-sa/avro/blob/master/avro-icon-64x64.png</IconUrl>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
